@@ -14,9 +14,9 @@ Amazon Web Services (AWS) is one of the world's largest cloud platforms. As the 
 
 
 ## Steps
-1.) Log into the AWS Console
-2.) Select the EC2 Instance
-3.) Select Launch Instance
+1.) Log into the AWS Console<br>
+2.) Select the EC2 Instance<br>
+3.) Select Launch Instance<br>
 4.) Create your EC2 Instance <br>
 -- a.) Select the: Amazon Linux 2 AMI <br>
 -- b.) Select the Free Tier Options <br>
@@ -24,13 +24,13 @@ Amazon Web Services (AWS) is one of the world's largest cloud platforms. As the 
 -- d.) Open all Ports to anywhere across: SSH, HTTP, and HTTPS <br>
 -- e.) Reveiew and Launch Instance <br>
 -- f.) GENERATE NEW PEM USER KEY AND KEEP THIS SAFE <br>
-5.) Use the Pem file and MobaXterm to remotely log in 
-6.) Install Python and Flask
-7.) Transfer the Project Files
-8.) Start the server with "sudo python3 core.py"
-9.) Go to AWS console and find the public DNS address
-10.) Follow the public address to your new webpage
-11.) To shut down, go to EC2 console and stop all running instances
+5.) Use the Pem file and MobaXterm to remotely log in<br> 
+6.) Install Python and Flask<br>
+7.) Transfer the Project Files<br>
+8.) Start the server with "sudo python3 core.py"<br>
+9.) Go to AWS console and find the public DNS address<br>
+10.) Follow the public address to your new webpage<br>
+11.) To shut down, go to EC2 console and stop all running instances<br>
 
 
 ## Author
