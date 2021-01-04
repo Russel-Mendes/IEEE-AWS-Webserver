@@ -17,14 +17,14 @@ Amazon Web Services (AWS) is one of the world's largest cloud platforms. As the 
 1.) Log into the AWS Console
 2.) Select the EC2 Instance
 3.) Select Launch Instance
-4.) Create your EC2 Instance
--- a.) Select the: Amazon Linux 2 AMI 
--- b.) Select the Free Tier Options
--- c.) In the upper hot bar, Configure Security Groups
--- d.) Open all Ports to anywhere across: SSH, HTTP, and HTTPS
--- e.) Reveiew and Launch Instance
--- f.) GENERATE NEW PEM USER KEY AND KEEP THIS SAFE
-5.) Use the Pem file and MobaXterm to remotely log in
+4.) Create your EC2 Instance <br>
+-- a.) Select the: Amazon Linux 2 AMI <br>
+-- b.) Select the Free Tier Options <br>
+-- c.) In the upper hot bar, Configure Security Groups <br>
+-- d.) Open all Ports to anywhere across: SSH, HTTP, and HTTPS <br>
+-- e.) Reveiew and Launch Instance <br>
+-- f.) GENERATE NEW PEM USER KEY AND KEEP THIS SAFE <br>
+5.) Use the Pem file and MobaXterm to remotely log in 
 6.) Install Python and Flask
 7.) Transfer the Project Files
 8.) Start the server with "sudo python3 core.py"
