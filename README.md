@@ -16,23 +16,23 @@ Amazon Web Services (AWS) is one of the world's largest cloud platforms. As the 
 ## Steps
 1.) Log into the AWS Console<br>
 2.) Select the EC2 Instance<br>
-![GitHub Logo](.\readme_img\S1.png)<br>
+![S1](https://github.com/Russel-Mendes/IEEE-AWS-Webserver/blob/main/readme_img/S1.PNG)<br>
 3.) Select Launch Instance<br>
-![GitHub Logo](.\readme_img\S2.png)<br>
+![S2](https://github.com/Russel-Mendes/IEEE-AWS-Webserver/blob/main/readme_img/S2.PNG)<br>
 4.) Create your EC2 Instance <br>
 -- a.) Select the: Amazon Linux 2 AMI <br>
-![GitHub Logo](.\readme_img\S3.png)<br>
+![S3](https://github.com/Russel-Mendes/IEEE-AWS-Webserver/blob/main/readme_img/S3.PNG)<br>
 -- b.) Select the Free Tier Options <br>
-![GitHub Logo](.\readme_img\S3b.png)<br>
+![S4](https://github.com/Russel-Mendes/IEEE-AWS-Webserver/blob/main/readme_img/S3b.PNG)<br>
 -- c.) In the upper hot bar, Configure Security Groups <br>
 -- d.) Open all Ports to anywhere across: SSH, HTTP, and HTTPS <br>
-![GitHub Logo](.\readme_img\S3c.png)<br>
+![S5](https://github.com/Russel-Mendes/IEEE-AWS-Webserver/blob/main/readme_img/S3c.PNG)<br>
 -- e.) Reveiew and Launch Instance <br>
 -- f.) GENERATE NEW PEM USER KEY AND KEEP THIS SAFE <br>
-![GitHub Logo](.\readme_img\Sdc.png)<br>
+![S6](https://github.com/Russel-Mendes/IEEE-AWS-Webserver/blob/main/readme_img/S3d.PNG)<br>
 5.) Use the Pem file and MobaXterm to remotely log in<br>
-![GitHub Logo](.\readme_img\S4a.png)<br>
-![GitHub Logo](.\readme_img\S4b.png)<br>  
+![S7](https://github.com/Russel-Mendes/IEEE-AWS-Webserver/blob/main/readme_img/S4a.PNG)<br>
+![S8](https://github.com/Russel-Mendes/IEEE-AWS-Webserver/blob/main/readme_img/S4b.PNG)<br>  
 6.) Install Python and Flask<br>
 7.) Transfer the Project Files<br>
 8.) Start the server with "sudo python3 core.py"<br>
