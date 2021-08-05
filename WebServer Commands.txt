@@ -1,0 +1,13 @@
+sudo yum update yum
+sudo yum install python3 -y
+sudo yum -y install python-pip
+sudo python3 -m pip install Flask
+
+sudo yum install git
+
+git clone https://github.com/Russel-Mendes/IEEE-AWS-Webserver.git
+cd IEEE-AWS-Webserver
+cd "How to AWS Webserver"
+cd server-IEEE
+
+sudo python3 core.py
